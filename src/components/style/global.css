@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #111;
+}
+.gradient-vertical {
+  background: linear-gradient(to top, #111 10%, transparent 90%);
+}
+.gradient-horizontal {
+  background: linear-gradient(to right, #111 30%, transparent 70%);
+}
